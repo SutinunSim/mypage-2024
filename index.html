@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cat site</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style> /*รูปวงกลม*/
+        .circle-image {
+            width: 150px; /* กำหนดความกว้าง */
+            height: 150px; /* กำหนดความสูง */
+            border-radius: 50%; /* ทำให้เป็นวงกลม */
+            overflow: hidden; /* ซ่อนส่วนเกินของรูปภาพ */
+            object-fit: cover; /* ปรับให้รูปพอดีกับขนาดที่กำหนด */
+        }
+    </style>
+    <style> 
+        body {
+	background-color: #bb7ca2;
+	}
+       hr {
+	background-color:white;
+	}
+
+    </style>
+
 </head>
 <body>
-    <img src="IMG_3612.jpeg" style="width: 20%; height: auto;">
+    <img src="IMG_3612.jpeg" class="circle-image">
     <h1>Thangngoen</h1>
+    <hr>
+    <!--<hr style="border-style: dashed solid; height: 20px;">-->
   <h3><em>Senior Professional Napper & Expert Alarm Clock</em></h3>
-  <hr>
+  <!--<hr style="border-style: dashed solid; height: 20px;">-->
   
   <strong>Summary:</strong> <br>
-    <p>A distinguished feline with 3 years of experience in providing unmatched companionship and stress relief. Known for expert-level purring, unparalleled lap-warming skills,
+    <p style="background-color:#FFD2A0;">A distinguished feline with 3 years of experience in providing unmatched companionship and stress relief. Known for expert-level purring, unparalleled lap-warming skills,
         and a keen ability to detect meal times with precision.Excels in maintaining a calm demeanor during challenging
         situations like vacuum encounters and excels at reminding humans to prioritize relaxation.</p>
-
+        <hr>
 <strong><h3>Key Skills:</h3></strong>
 <ul>
    <li>Advanced napping (20 hours/day proficiency)</li>
@@ -45,7 +67,7 @@
     </ol>
 
     <h3>Freelance Pest Controller</h3>
-<table>
+<table style="background-color:#EFB6C8;">
     <thead>
         <td>Years</td>
         <td>Works</td>
@@ -60,7 +82,7 @@
     <td>Developed innovative techniques for catching (or pretending to catch) imaginary prey</td>
 </tr>
 </table>
-
+<hr>
 <h3>Certifications</h3>
 <ul>
 <li>Certified Mouse Hunter (Toy)</li>
